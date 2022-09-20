@@ -81,5 +81,19 @@ public class InputHandler : MonoBehaviour
             upArrow.Execute(animator);
             oldCommands.Add(upArrow);
         }
+        else if (Input.GetKeyDown(KeyCode.Z))
+        {
+            UndoLastCommand();
+        }
+    }
+
+    private void UndoLastCommand()
+    {
+        if(oldCommands.Count > 0)
+        {
+            Command c = oldCommands[oldCommands.Count - 1];
+            c.Execute(animator, false);
+            oldCommands.RemoveAt(oldCommands.Count - 1);
+        }
     }
 }
