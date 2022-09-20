@@ -8,6 +8,14 @@ public abstract class Command
 
 }
 
+public class MoveForward : Command
+{
+    public override void Execute(Animator animator)
+    {
+        animator.SetTrigger("isWalking");
+    }
+}
+
 public class PerformJump : Command
 {
     public override void Execute(Animator animator)
