@@ -1509,7 +1509,7 @@ MonoBehaviour:
   plantInfoPanel: {fileID: 2014324177}
   plantIcon: {fileID: 1093847273}
   planeName: {fileID: 275973037}
-  phreatLevel: {fileID: 616969393}
+  threatLevel: {fileID: 0}
 --- !u!114 &1442756475
 MonoBehaviour:
   m_ObjectHideFlags: 0
