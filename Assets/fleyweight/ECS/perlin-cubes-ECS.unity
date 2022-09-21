@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2033129500}
-  - component: {fileID: 2033129499}
+  - component: {fileID: 2033129501}
   m_Layer: 0
   m_Name: SpawnCubes
   m_TagString: Untagged
@@ -242,21 +242,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2033129499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033129498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1591598b5ab1d264489b333c424acbcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cube: {fileID: 5034073810203728374, guid: e62e01e7f5c871a4190cabb95c4ca79c, type: 3}
-  width: 100
-  depth: 100
 --- !u!4 &2033129500
 Transform:
   m_ObjectHideFlags: 0
@@ -272,6 +257,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033129501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033129498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
 --- !u!1 &2034174186
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,3 +395,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1188152756251821635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1188152756083334168, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_Name
+      value: ecs-cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.593124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.3474865
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 65.41417
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188152756083334172, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e134b37dc295ac34ea30e0bc65144332, type: 3}
