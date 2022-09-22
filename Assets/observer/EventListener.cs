@@ -14,7 +14,7 @@ public class EventListener : MonoBehaviour
 
     private void OnDisable()
     {
-        gEvent.UnRegister(this)
+        gEvent.UnRegister(this);
     }
 
     public void OnEventOccurs()

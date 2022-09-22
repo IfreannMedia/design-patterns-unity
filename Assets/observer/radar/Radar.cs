@@ -64,4 +64,9 @@ public class Radar : MonoBehaviour
         DrawRadarDots();
     }
 
+    public void ItemDropped()
+    {
+        Debug.Log("EGG DROP YOOOOOOO!");
+    }
+
 }
