@@ -26,7 +26,7 @@ public class EggSpawner : MonoBehaviour
         Vector3 pos = new Vector3(x, 0, z);
         pos.y = terrain.SampleHeight(pos) + 10;
         GameObject egg = Instantiate(eggPrefab, pos, Quaternion.identity);
-        eggDropp.Occured();
+        eggDropp.Occured(egg);
     }
 
 }

@@ -16,11 +16,11 @@ public class Event : ScriptableObject
         eListeners.Remove(l);
     }
 
-    public void Occured()
+    public void Occured(GameObject go)
     {
         for (int i = 0; i < eListeners.Count; i++)
         {
-            eListeners[i].OnEventOccurs();
+            eListeners[i].OnEventOccurs(go);
         }
     }
 }
