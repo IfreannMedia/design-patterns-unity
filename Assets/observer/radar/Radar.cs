@@ -53,7 +53,6 @@ public class Radar : MonoBehaviour
 
             ro.icon.transform.SetParent(this.transform);
             RectTransform rt = this.GetComponent<RectTransform>();
-            Debug.Log(rt.pivot);
             ro.icon.transform.position = new Vector3(radarPos.x + rt.pivot.x, radarPos.z + rt.pivot.y, 0) + this.transform.position;
         }
     }
