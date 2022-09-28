@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Prototype pattern achieved using unities prefabs
 public class PrototypeSpawner : MonoBehaviour
 {
 

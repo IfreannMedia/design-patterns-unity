@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PrototypeCubeSpawner : MonoBehaviour
+// Prototype spawner using own rolled instantiation of prototype (prefab) objects
+public class PrototypeSpawnerOwnRolled : MonoBehaviour
 {
-    
     void Update()
     {
         if (Random.Range(0, 100) < 10)
