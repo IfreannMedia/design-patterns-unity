@@ -199,14 +199,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306051804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.041457936, y: -0, z: -0, w: 0.9991403}
+  m_LocalPosition: {x: 0, y: 3.92, z: -17.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.752, y: 0, z: 0}
 --- !u!1 &1388097836
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388097838}
   - component: {fileID: 1388097837}
+  - component: {fileID: 1388097839}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -231,13 +232,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388097836}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1ed423185c0fc42af978626804c1fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 3911286835047329254, guid: 2f7491d7c1a034d4dad916423ede4481, type: 3}
-  spherePrefab: {fileID: 0}
+  spherePrefab: {fileID: 7850525970010465084, guid: 2464dd4fc0c337b478f397d32da7538d, type: 3}
 --- !u!4 &1388097838
 Transform:
   m_ObjectHideFlags: 0
@@ -253,6 +254,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388097839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388097836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcea101de3b671d4eb6c4da200cd3ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1390085454
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 1390085454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 9.777, y: 9.777, z: 9.777}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
