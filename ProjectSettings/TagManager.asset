@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlantInfo
+  - goal
+  - Fire
+  - Checkpoint
+  - asteroid
+  - bullet
   layers:
   - Default
   - TransparentFX
